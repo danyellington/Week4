@@ -8,7 +8,7 @@ describe('adds', function() {
   });
 
   it('should return numbers added together in sequential order', function() {
-      let num = new Adding("2");
-      expect(math()).toEqual(3);
+      let num = new Adding(5);
+      expect(num.math()).toEqual(15);
     });
 })
