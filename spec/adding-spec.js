@@ -1,4 +1,4 @@
-import {Adding} from './../js/scripts.js';
+import {Adding} from './../js/adding.js';
 
 describe('adds', function() {
 
@@ -7,8 +7,8 @@ describe('adds', function() {
     expect(num instanceof Adding);
   });
 
-  it('should return the user age in seconds', function() {
+  it('should return numbers added together in sequential order', function() {
       let num = new Adding("2");
-      expect(number()).toEqual(3);
+      expect(math()).toEqual(3);
     });
 })

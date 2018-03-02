@@ -12,11 +12,8 @@ number() {
   }
   return answer;
 }
+
+math(number){
+   return (this.number*(this.number+1))/2;
 }
-
-
-//Reverse
-
-
-
-//Letter Change
+}
