@@ -1,10 +1,10 @@
-export class letterChange {
-
+export class LetterChange {
+constructor(string) {
+  this.string = string;
 }
 
-
 letterChange() {
-  var letters = string.split(" ");
+  var letters = this.string.split(" ");
 
 // start by splitting the word into two parts and then combining them
 // capitalize th first part and combine with the rest of the string
