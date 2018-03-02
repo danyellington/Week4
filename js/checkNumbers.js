@@ -6,7 +6,7 @@ export class CheckNumbers {
 
   checkNums() {
   if (this.num1 === this.num2) {
-    return -1;
+    return "-1";
   } else if (this.num2 > this.num1) {
     return true;
   } else {
