@@ -7,3 +7,7 @@ My outline for today is as follows:
 4) Check answers by running tests
 5) Create frontend to webpage to submit answers
 6) Program responds to whether or not given answer is correct
+
+
+Update:
+As the day wraps up, I wanted to update my timeline of work. Initially, I attempted to write tests for my solutions to the problems on my quiz. However, that proved to be challenging for me. I was able to write the functions, but struggled with creating classes and constructors for testing. I instead provided a walk through in the code itself to demonstrate understanding of functionality. Some tests worked, and others still have compiling errors. I realize testing is important and it does help me to understand how things work by breaking them down, but I did find that aspect challenging today. I think that I did get decent practice in solving basic code problems that I'll likely encounter again. All of that said, I'm going to spend the remainder of the day attempting to solve the testing problems I've encountered. 
