@@ -8,6 +8,6 @@ describe('reverse', function() {
 
 it('should return str in reverse', function() {
   let str = new Reverse("hello");
-  expect(str.rewind())toEqual("olleh");
+  expect(str.rewind()).toEqual("olleh");
 });
 })

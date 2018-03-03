@@ -7,4 +7,9 @@ describe('convert', function() {
     expect(word instanceof LetterChange);
   });
 
+  it('should return string with first letter uppercase', function() {
+    let word = new LetterChange("hello there");
+    expect(word.letterChange()).toEqual("Hello There");
+  });
+
 })
